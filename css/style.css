@@ -6,50 +6,59 @@
 }
 .service-container {
     max-width: 50%;
-    width: auto;
+    margin-top: 15%;
+    /* width: auto; */
 }
 
-a { 
-  color: #207F9F;
+/* a { 
+  color: rgb(9, 10, 10);
   text-decoration: none;
-}
+} */
 
 .links .link { 
-    margin-bottom: 12px;
-    padding: 0;
-    position: relative;
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    transform: translate(-50%, -50%);
 }
     
 .link a{ 
-     position: relative;
-     display: block;
-     width: 100%;
-     padding: 15px 20px;
-     outline: 0!important;
-     border-width: 2px;
-     border-style: solid;
-     border-radius: 0;
-     border-color: #207F9F;
-     display: inline-block;
-     line-height: 1.5;
-     overflow-wrap: break-word;
-     word-wrap: break-word;
-     word-break: break-word;
-     -ms-hyphens: auto;
-     -webkit-hyphens: auto;
-     hyphens: auto;
-     white-space: normal;
+    position: relative;
+    display: block;
+    color: rgb(9, 10, 10);
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+    text-decoration: none;
+    margin: 30px 0;
+    /* border: 2px solid rgb(9, 10, 10); */
+    padding: 14px 50px;
+    /* overflow: hidden; */
+    transition: 0.75s all ease;
+    /* border-radius: 5px; */
+    text-align: center;
+
+    
+  border: solid 1px rgb(9, 10, 10);
+  padding: 3px;
+  height: 1.5em; 
+  border-radius: 4px; 
+  background-clip: content-box; 
+  background-color: white;
+  line-height: 1.5;
+  font-size: 20px;
+  text-indent: 0.5rem;
       
       }
-.link:hover { 
-    background-color: #207F9F;
+.link a:hover { 
+    background-color: rgb(9, 10, 10);
     color: white;
+    /* text-decoration: underline; */
   }
 
 .image-container {
-    display: block;
+    /* display: block; */
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
   }
 
