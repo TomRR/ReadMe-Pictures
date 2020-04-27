@@ -50,7 +50,7 @@
       
       }
 .link a:hover { 
-    background-color: rgb(9, 10, 10);
+    background-color: rgb(20, 22, 22);
     color: white;
     /* text-decoration: underline; */
   }
@@ -61,4 +61,17 @@
     margin-right: auto;
     /* width: 50%; */
   }
+
+.exit-icon {
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background: url(icons/);
+  background-size: 100px 82px;
+}
+
+.exit-icon:hover {
+  background-image: "../icons/chevron-left-solid-black.svg";
+}
 
