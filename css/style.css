@@ -52,6 +52,7 @@
 .link a:hover { 
     background-color: rgb(20, 22, 22);
     color: white;
+    border-style: dotted;
     /* text-decoration: underline; */
   }
 
